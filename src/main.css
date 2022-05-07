@@ -1,0 +1,66 @@
+:root {
+    --primary: #FFBA3E;
+    --secondary:#3864CB;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+button.main {
+    background-color: #FFBA3E;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 20px;
+    font-size: large;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 3px 1px grey;
+}
+
+button.main:active {
+    box-shadow: none;
+}
+
+input {
+    border: none;
+    box-sizing: border-box;
+    border-bottom: 2px solid var(--secondary);
+    margin: 4px;
+    padding: 0.2em;
+}
+
+input:focus {
+    border-bottom-width: 4px;
+    outline: none;
+}
+
+.block {
+    display: block;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-center {
+    align-content: center;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
